@@ -1,0 +1,14 @@
+﻿[1] Authenticating...
+[2] Got Access Token.
+[3] Listing tables for App: QwtXbDxRBaBGeWs62Bsciff6nGh...
+[Success] Found 1 tables.
+Using First Table -> Name: 鏁版嵁琛? ID: tbl7KBlUtUOs738I
+[4] Attempting to add record to Table ID: tbl7KBlUtUOs738I...
+
+[Diagnosis] Listing Fields for Table tbl7KBlUtUOs738I...
+--- ACTUAL TABLE FIELDS ---
+Field Name: "鍏徃鍚嶇О"
+Field Name: "鏄电О"
+Field Name: "鑱旂郴鏂瑰紡"
+Field Name: "闇€姹傝鏄?
+---------------------------
