@@ -16,7 +16,7 @@ export const VoiceGallery: React.FC = () => {
   };
 
   return (
-    <section id="voices" className="py-24 relative bg-[#1F0201]">
+    <section id="voices" className="py-16 md:py-24 relative bg-[#1F0201]">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none"></div>
 
@@ -33,7 +33,7 @@ export const VoiceGallery: React.FC = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {VOICE_CHARACTERS.map((char) => (
             <div
               key={char.id}

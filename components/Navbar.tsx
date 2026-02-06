@@ -21,9 +21,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onCtaClick }) => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 border-b ${isScrolled || isMobileMenuOpen
-        ? 'bg-slate-900/90 backdrop-blur-md border-slate-800 py-3'
-        : 'bg-transparent border-transparent py-6'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${isScrolled || isMobileMenuOpen
+        ? 'bg-[#0F0202]/90 backdrop-blur-md border-[#D02034]/10 py-3'
+        : 'bg-transparent border-transparent py-4 md:py-6'
         }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
@@ -64,7 +64,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onCtaClick }) => {
 
       {/* Mobile Dropdown */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-slate-900 border-b border-slate-800 p-4 shadow-xl">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-[#0F0202] border-b border-[#D02034]/20 p-6 shadow-2xl backdrop-blur-xl animate-in slide-in-from-top-2">
           <div className="flex flex-col gap-4">
             {NAV_LINKS.map((link) => (
               <a

@@ -15,7 +15,7 @@ export const ProductModules: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-12 max-w-6xl mx-auto">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 max-w-6xl mx-auto">
           {/* Navigation (Left) */}
           <div className="lg:w-1/3 flex flex-col gap-4">
             {PRODUCT_MODULES.map((module) => (

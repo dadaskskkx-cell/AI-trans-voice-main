@@ -8,13 +8,13 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
+    <section className="relative pt-24 pb-16 md:pt-32 md:pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
       {/* Abstract Background Effects */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-[#D02034]/20 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
       <div className="absolute bottom-0 right-0 w-[800px] h-[600px] bg-[#00F0FF]/10 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
 
       <div className="container mx-auto px-4 text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8 leading-tight">
+        <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 md:mb-8 leading-tight">
           原角色音色复刻<br />
           <span className="gradient-text">一体化 AI 配音成片</span>
         </h1>

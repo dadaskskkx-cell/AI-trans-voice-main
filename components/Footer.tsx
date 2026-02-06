@@ -7,7 +7,7 @@ interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({ onCtaClick }) => {
   return (
-    <footer className="bg-[#140101] py-12 border-t border-[#D02034]/20">
+    <footer className="bg-[#140101] py-8 md:py-12 border-t border-[#D02034]/20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
           <div>
